@@ -48,8 +48,5 @@ function toCelcius(fahrenheit){
   
 }
 
-let fahrenheitValue = 42;
-let celciusValue = toCelcius(fahrenheitValue);
-console.log(fahrenheitValue + " degrees fahrenheit is " +celciusValue + " degrees celcius");
-
-console.log("66 degrees fahrenheit is " +toCelcius(66) + " degrees celcius");
+let fahrenheitValue = 47;
+console.log(fahrenheitValue + " degrees fahrenheit is " +toCelcius(fahrenheitValue) + " degrees celcius");
